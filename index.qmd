@@ -1,0 +1,19 @@
+---
+title: Quarto-manuscript-test
+authors:
+  - name: Norah Jones
+    affiliation: The University
+    roles: writing
+    corresponding: true
+bibliography: references.bib
+---
+
+I wonder if there is a way to make the notebooks look better?
+
+## Section
+This is a simple placeholder for the manuscript's main document [@knuth84].
+
+```{r}
+1 + 1
+```
+

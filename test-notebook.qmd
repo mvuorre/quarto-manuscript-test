@@ -1,5 +1,17 @@
 ---
 title: "Test notebook"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-notebook .cell-container .cell-decorator {
+        display: none;
+      }
+      .quarto-notebook .cell .cell-output-stderr pre code, .quarto-notebook .cell .cell-output-stdout pre code {
+        white-space: pre-wrap;
+        border: none;
+        overflow-wrap: anywhere;
+      }
+      </style>
 ---
 
 Here's code for yall
@@ -8,7 +20,10 @@ Here's code for yall
 library(tidyverse)
 ```
 
+echo: false doesn't work below
+
 ```{r}
+#| echo: false
 1 + 1
 ```
 

@@ -8,14 +8,7 @@ manuscript:
 notebook-links: global
 
 format:
-  html:
-    comments:
-      hypothesis: true
-  docx: default
-  jats: default
-
-  # (other formats)
-  # pdf: default
+  html: default
 
 execute:
   freeze: true
